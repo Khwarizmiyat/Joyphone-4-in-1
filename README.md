@@ -8,96 +8,10 @@
 
 ---
 
-<a name="english"></a>
-## English
+ 
 
-Joyphone reads your phone's accelerometer and gyroscope and sends the result over Wi-Fi or USB to a small Windows program, which presents a virtual Xbox 360 controller to your games. Any game that accepts an Xbox controller can use it.
-
-**[⬇ Download the latest release](../../releases/latest)** — this repository contains documentation only; the app and the PC program are published as release files.
-
-### Modes
-
-- **Steering wheel** – rotate the phone like a wheel. On-screen gas and brake pedals, handbrake (digital or analog, with optional latch), gear up/down and horn.
-- **Flight yoke** – roll and pitch by tilting the phone. Throttle lever, brakes and rudder buttons. Two styles: Realistic and Arcade.
-- **Motorcycle** – rotate the phone like a handlebar. Twist-grip throttle, separate front and rear brakes, gear shift, starter, horn, camera and look-back.
-- **Gamepad** – a full Xbox 360 layout: two sticks, D-pad, A/B/X/Y, bumpers, analog triggers, Back/Start and L3/R3, with optional gyroscope or touchpad aiming.
-
-### Features
-
-- Automatic discovery over Wi-Fi, or manual IP entry
-- USB connection through Android's debugging bridge (adb) – no Wi-Fi needed
-- Move, resize, hide and rename on-screen controls; save and restore layouts
-- Map controls to Xbox buttons or keyboard keys
-- Adjustable deadzone, response curve, smoothing and more for each mode, with a short explanation (?) next to every setting
-- Optional pause when the connection drops (Start button or Esc key)
-- Arabic and English interface
-- Optional Islamic dhikr reminder notifications (Arabic interface only, off by default)
-
-### Limitations
-
-- The PC program runs on **Windows only**.
-- It emulates an **Xbox 360 controller (XInput)**. Games that read only DirectInput devices will not see it.
-- **No force feedback.** Vibration is limited to short cues on the phone.
-- It needs the **ViGEmBus** driver, a separate download. The ViGEmBus project is retired, but the driver still works.
-- Results depend on the game and on your phone's sensors. Not every game or device has been tested. The developer has used it with BeamNG.drive, MotoGP 15, Assetto Corsa and Live for Speed; Assetto Corsa and Live for Speed pause with the Esc key, so choose *Pause method: ESC key* in the app menu for them.
-
-### Requirements
-
-| | |
-|---|---|
-| **PC** | Windows 10 or 11 (64-bit) · ViGEmBus driver installed · Joyphone server (`Joyphone.exe`) |
-| **Phone** | Android 7.0 or newer · accelerometer and gyroscope · Wi-Fi (or USB debugging) |
-| **Network** | PC and phone on the same Wi-Fi network (not a guest or isolated network) · Windows network profile set to *Private* |
-| **Firewall** | Allow Joyphone on private networks: TCP 8080, UDP 8081, UDP 9876 |
-| **USB mode** | USB debugging enabled · a data cable · internet access the first time, so the server can download Android platform-tools |
-
-### Install and first run
-
-1. **PC** – install the [ViGEmBus driver](https://github.com/nefarius/ViGEmBus/releases) (administrator approval; restart if asked). Download `Joyphone-Server-…-win64.zip` from the releases page, extract it, run `Joyphone.exe` and allow it through the firewall on *Private* networks.
-2. **Phone** – download `Joyphone-….apk`, open it and allow installation from this source when Android asks, then open Joyphone.
-3. **Connect** – with both devices on the same Wi-Fi the phone finds the PC automatically, or type the IP address shown in the server window. For USB: enable *USB debugging* in the phone's developer options, plug in the cable and accept the prompt on the phone.
-4. Pick a mode, press **Calibrate** while holding the phone the way you will play, then choose the Xbox controller in your game.
-
-Default bindings:
-
-| Mode | Bindings |
-|---|---|
-| Wheel | Steering ← Left stick X · Gas ← RT · Brake ← LT · Analog handbrake ← Right stick Y |
-| Flight yoke | Ailerons ← Left stick X · Elevator ← Left stick Y · Throttle ← Right stick Y · Rudder ← Right stick X · Brakes ← LT |
-| Motorcycle | Steering ← Left stick X · Throttle ← RT · Front brake ← LT · Rear brake ← Right stick Y |
-
-### Troubleshooting
-
-- **"Windows protected your PC"** – the program is not code-signed. Choose *More info* → *Run anyway*, after checking the SHA-256 value (below).
-- **Antivirus warning** – programs packaged with PyInstaller are sometimes flagged by mistake. Compare the checksum with `SHA256SUMS.txt` before running.
-- **Phone cannot connect** – check that both devices are on the same network, that Windows treats it as *Private*, that the firewall allows Joyphone, and that no VPN or guest network is in the way. As a test, open `http://<PC-IP>:8080` in the phone's browser; if the page does not load, the network or firewall is blocking the PC.
-- **The game does not see a controller** – make sure ViGEmBus is installed, restart the game, and select the Xbox controller.
-- **Esc pause does not work** – Windows blocks simulated keys for games that run as administrator.
-- **No reminder notifications** – allow notifications for Joyphone and remove battery restrictions for the app.
-
-### Verify your download
-
-```
-certutil -hashfile Joyphone-Server-v7.22-win64.zip SHA256
-```
-Compare the result with `SHA256SUMS.txt` from the same release.
-
-### Privacy
-
-Joyphone collects no personal data and has no analytics, ads or accounts. Traffic between the phone and the PC stays on your local network or USB cable. On first USB use the server may download Android platform-tools from Google. Links inside the app (support, Telegram, email) open only when you tap them.
-
-### License
-
-Joyphone is proprietary freeware – see [LICENSE](LICENSE). Third-party components are listed in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
-
-### Support and contact
-
-Made by **Khwarizmiyat**, an independent company.
-[Support us on Patreon](https://www.patreon.com/cw/Khwarizmiyat) · [Telegram](https://t.me/Khwarizmiyat) · [Email](mailto:mmcg2027@gmail.com)
-
----
-
-<a name="arabic"></a>
+ 
+. <a name="arabic"></a>
 <div dir="rtl" align="right">
 
 ## العربية
@@ -187,5 +101,97 @@ Joyphone برنامج مجاني مغلق المصدر — انظر ملف [LICE
 
 من تطوير **شركة خوارزميات المستقلة (Khwarizmiyat)**.
 [ادعمنا على باتريون](https://www.patreon.com/cw/Khwarizmiyat) · [تيليجرام](https://t.me/Khwarizmiyat) · [البريد](mailto:mmcg2027@gmail.com)
+
+</div>
+
+---
+
+
+<a name="english"></a>
+## English
+
+Joyphone reads your phone's accelerometer and gyroscope and sends the result over Wi-Fi or USB to a small Windows program, which presents a virtual Xbox 360 controller to your games. Any game that accepts an Xbox controller can use it.
+
+**[⬇ Download the latest release](../../releases/latest)** — this repository contains documentation only; the app and the PC program are published as release files.
+
+### Modes
+
+- **Steering wheel** – rotate the phone like a wheel. On-screen gas and brake pedals, handbrake (digital or analog, with optional latch), gear up/down and horn.
+- **Flight yoke** – roll and pitch by tilting the phone. Throttle lever, brakes and rudder buttons. Two styles: Realistic and Arcade.
+- **Motorcycle** – rotate the phone like a handlebar. Twist-grip throttle, separate front and rear brakes, gear shift, starter, horn, camera and look-back.
+- **Gamepad** – a full Xbox 360 layout: two sticks, D-pad, A/B/X/Y, bumpers, analog triggers, Back/Start and L3/R3, with optional gyroscope or touchpad aiming.
+
+### Features
+
+- Automatic discovery over Wi-Fi, or manual IP entry
+- USB connection through Android's debugging bridge (adb) – no Wi-Fi needed
+- Move, resize, hide and rename on-screen controls; save and restore layouts
+- Map controls to Xbox buttons or keyboard keys
+- Adjustable deadzone, response curve, smoothing and more for each mode, with a short explanation (?) next to every setting
+- Optional pause when the connection drops (Start button or Esc key)
+- Arabic and English interface
+- Optional Islamic dhikr reminder notifications (Arabic interface only, off by default)
+
+### Limitations
+
+- The PC program runs on **Windows only**.
+- It emulates an **Xbox 360 controller (XInput)**. Games that read only DirectInput devices will not see it.
+- **No force feedback.** Vibration is limited to short cues on the phone.
+- It needs the **ViGEmBus** driver, a separate download. The ViGEmBus project is retired, but the driver still works.
+- Results depend on the game and on your phone's sensors. Not every game or device has been tested. The developer has used it with BeamNG.drive, MotoGP 15, Assetto Corsa and Live for Speed; Assetto Corsa and Live for Speed pause with the Esc key, so choose *Pause method: ESC key* in the app menu for them.
+
+### Requirements
+
+| | |
+|---|---|
+| **PC** | Windows 10 or 11 (64-bit) · ViGEmBus driver installed · Joyphone server (`Joyphone.exe`) |
+| **Phone** | Android 7.0 or newer · accelerometer and gyroscope · Wi-Fi (or USB debugging) |
+| **Network** | PC and phone on the same Wi-Fi network (not a guest or isolated network) · Windows network profile set to *Private* |
+| **Firewall** | Allow Joyphone on private networks: TCP 8080, UDP 8081, UDP 9876 |
+| **USB mode** | USB debugging enabled · a data cable · internet access the first time, so the server can download Android platform-tools |
+
+### Install and first run
+
+1. **PC** – install the [ViGEmBus driver](https://github.com/nefarius/ViGEmBus/releases) (administrator approval; restart if asked). Download `Joyphone-Server-…-win64.zip` from the releases page, extract it, run `Joyphone.exe` and allow it through the firewall on *Private* networks.
+2. **Phone** – download `Joyphone-….apk`, open it and allow installation from this source when Android asks, then open Joyphone.
+3. **Connect** – with both devices on the same Wi-Fi the phone finds the PC automatically, or type the IP address shown in the server window. For USB: enable *USB debugging* in the phone's developer options, plug in the cable and accept the prompt on the phone.
+4. Pick a mode, press **Calibrate** while holding the phone the way you will play, then choose the Xbox controller in your game.
+
+Default bindings:
+
+| Mode | Bindings |
+|---|---|
+| Wheel | Steering ← Left stick X · Gas ← RT · Brake ← LT · Analog handbrake ← Right stick Y |
+| Flight yoke | Ailerons ← Left stick X · Elevator ← Left stick Y · Throttle ← Right stick Y · Rudder ← Right stick X · Brakes ← LT |
+| Motorcycle | Steering ← Left stick X · Throttle ← RT · Front brake ← LT · Rear brake ← Right stick Y |
+
+### Troubleshooting
+
+- **"Windows protected your PC"** – the program is not code-signed. Choose *More info* → *Run anyway*, after checking the SHA-256 value (below).
+- **Antivirus warning** – programs packaged with PyInstaller are sometimes flagged by mistake. Compare the checksum with `SHA256SUMS.txt` before running.
+- **Phone cannot connect** – check that both devices are on the same network, that Windows treats it as *Private*, that the firewall allows Joyphone, and that no VPN or guest network is in the way. As a test, open `http://<PC-IP>:8080` in the phone's browser; if the page does not load, the network or firewall is blocking the PC.
+- **The game does not see a controller** – make sure ViGEmBus is installed, restart the game, and select the Xbox controller.
+- **Esc pause does not work** – Windows blocks simulated keys for games that run as administrator.
+- **No reminder notifications** – allow notifications for Joyphone and remove battery restrictions for the app.
+
+### Verify your download
+
+```
+certutil -hashfile Joyphone-Server-v7.22-win64.zip SHA256
+```
+Compare the result with `SHA256SUMS.txt` from the same release.
+
+### Privacy
+
+Joyphone collects no personal data and has no analytics, ads or accounts. Traffic between the phone and the PC stays on your local network or USB cable. On first USB use the server may download Android platform-tools from Google. Links inside the app (support, Telegram, email) open only when you tap them.
+
+### License
+
+Joyphone is proprietary freeware – see [LICENSE](LICENSE). Third-party components are listed in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
+
+### Support and contact
+
+Made by **Khwarizmiyat**, an independent company.
+[Support us on Patreon](https://www.patreon.com/cw/Khwarizmiyat) · [Telegram](https://t.me/Khwarizmiyat) · [Email](mailto:mmcg2027@gmail.com)
 
 </div>
