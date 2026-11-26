@@ -20,7 +20,7 @@
 
 يقرأ Joyphone حساسَي التسارع والجايروسكوب في هاتفك، ويرسل النتيجة عبر الواي فاي أو USB إلى برنامج صغير على ويندوز، فيعرض لألعابك يد Xbox 360 افتراضية. وتعمل معه أي لعبة تقبل يد Xbox.
 
-**[⬇ نزّل أحدث إصدار](../../releases/latest)** — هذا المستودع للتوثيق فقط، أما التطبيق وبرنامج الكمبيوتر فيُنشران كملفات في صفحة الإصدارات.
+**[⬇ نزّل أحدث إصدار](../../releases/latest)** .
 
 ### الأوضاع
 
@@ -81,8 +81,9 @@
 - **لا تصل إشعارات الأذكار:** اسمح بالإشعارات لـJoyphone وأزل قيود البطارية عن التطبيق
 
 
-###هل يحوي البرنامج على اي فيروسات ؟؟ , قطعا لا وان كنت تشعر بالشك فابمكانك ارسال الملفات الى موقع virusttottal للتاكد بنفسك 
-### التحقق من الملف
+### هل يحوي البرنامج على اي فيروسات ؟؟ , قطعا لا وان كنت تشعر بالشك فابمكانك ارسال الملفات الى موقع virusttottal للتاكد بنفسك 
+
+ التحقق من الملف
 
 ```
 certutil -hashfile Joyphone-Server-v7.22-win64.zip SHA256
@@ -174,7 +175,7 @@ Default bindings:
 - **No reminder notifications** – allow notifications for Joyphone and remove battery restrictions for the app.
 
   
- ###is the app contain any virus ??? totally no, and if you doubt you can check it by yourself by sendign the files to virustottal###  website
+ ### is the app contain any virus ??? totally no, and if you doubt you can check it by yourself by sendign the files to virustottal  website
  
 ### Verify your download
 
