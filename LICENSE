@@ -1,0 +1,63 @@
+JOYPHONE END-USER LICENSE AGREEMENT
+
+Copyright (c) 2026 Khwarizmiyat. All rights reserved.
+
+"Software" means the Joyphone Android application (APK) and the Joyphone
+Windows server program (Joyphone.exe), in binary form, together with their
+documentation.
+
+1. License
+   Khwarizmiyat grants you a free, non-exclusive, non-transferable, revocable
+   license to install and use the Software on devices that you own or control,
+   for personal, non-commercial purposes.
+
+2. Restrictions
+   You may not:
+   (a) sell, rent, lease, sublicense or otherwise commercialize the Software;
+   (b) copy or redistribute the Software, except by sharing a link to its
+       official release page;
+   (c) modify the Software or create derivative works from it;
+   (d) decompile, disassemble or reverse engineer the Software, except to the
+       extent that applicable law expressly permits this despite this
+       restriction;
+   (e) remove or alter any copyright or license notice;
+   (f) integrate the Software into any commercial product or service, or
+       bundle it with hardware, without written permission from Khwarizmiyat.
+
+3. Third-party components
+   The Software contains or depends on third-party open-source components,
+   which are licensed under their own terms (see THIRD_PARTY_NOTICES.txt).
+   Nothing in this agreement limits your rights under those licenses.
+   The ViGEmBus driver required by the Windows server is separate third-party
+   software that is not included in the Software.
+
+4. Your responsibility
+   You are responsible for complying with the terms of the games, services and
+   platforms you use with the Software (for example online games that restrict
+   virtual or emulated input devices) and with applicable laws. Do not use the
+   Software while driving or operating a real vehicle or machinery.
+
+5. Privacy
+   The Software does not collect personal data and contains no analytics,
+   advertising or user accounts. Data exchanged between the phone and the PC
+   stays on your local network or USB connection. When USB mode is used for the
+   first time, the Windows server may download the Android platform-tools from
+   Google's servers. Links inside the Software (support, Telegram, email) open
+   only when you tap them.
+
+6. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+7. Limitation of liability
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL KHWARIZMIYAT BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF, OR
+   THE INABILITY TO USE, THE SOFTWARE.
+
+8. Termination
+   This license ends automatically if you breach any of its terms. You must
+   then stop using the Software and delete all copies of it.
+
+9. Contact
+   Telegram: https://t.me/Khwarizmiyat
