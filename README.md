@@ -81,7 +81,7 @@
 - **لا تصل إشعارات الأذكار:** اسمح بالإشعارات لـJoyphone وأزل قيود البطارية عن التطبيق
 
 
-### هل يحوي البرنامج على اي فيروسات ؟؟ , قطعا لا وان كنت تشعر بالشك فابمكانك ارسال الملفات الى موقع virusttottal للتاكد بنفسك 
+### هل يحوي البرنامج على اي فيروسات ؟؟ , قطعا لا وان كنت تشعر بالشك فبامكانك ارسال الملفات الى موقع virusttottal للتاكد بنفسك 
 
  التحقق من الملف
 
@@ -175,7 +175,7 @@ Default bindings:
 - **No reminder notifications** – allow notifications for Joyphone and remove battery restrictions for the app.
 
   
- ### is the app contain any virus ??? totally no, and if you doubt you can check it by yourself by sendign the files to virustottal  website
+ ### is the app contain any virus ??? totally no, and if you doubt you can check it by yourself by sending the files to virustottal  website
  
 ### Verify your download
 
