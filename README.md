@@ -30,7 +30,8 @@
 - **يد التحكم:** تخطيط Xbox 360 كامل (عصاتان، وأزرار الاتجاهات، وA/B/X/Y، والأكتاف، والزنادات التناظرية، وBack/Start، وL3/R3)، مع تصويب اختياري بالجايروسكوب أو بلوحة لمس.
 
 ### المزايا
-
+-اكثر من 50 اعداد لتوفير اكبر قدر ممكن من الواقعية والراحة 
+-اضافة ازرار اضافية وتعديل تخطيط او اسماء الازرار وحفظ التعديلات على شكل مجلدات يمكن فتحها لتتوافق مع كل لعبة 
 - اكتشاف تلقائي عبر الواي فاي، أو إدخال عنوان IP يدوياً
 - اتصال عبر USB باستخدام جسر التصحيح في أندرويد (adb) دون حاجة إلى واي فاي
 - تحريك عناصر الشاشة وتغيير حجمها وإخفاؤها وإعادة تسميتها، وحفظ التخطيطات واستعادتها
@@ -38,16 +39,13 @@
 - ضبط المنطقة الميتة ومنحنى الاستجابة والتنعيم وغيرها لكل وضع، مع شرح مختصر بعلامة (؟) بجانب كل إعداد
 - إيقاف اللعبة مؤقتاً عند انقطاع الاتصال بشكل اختياري (زر Start أو مفتاح Esc)
 - واجهة عربية وإنجليزية
-- إشعارات أذكار إسلامية اختيارية (للواجهة العربية فقط، ومعطّلة افتراضياً)
+- إشعارات أذكار إسلامية اختيارية (للواجهة العربية فقط)
 
 ### القيود
 
 - برنامج الكمبيوتر يعمل على **ويندوز فقط**.
-- يحاكي **يد Xbox 360 (XInput)**؛ فالألعاب التي تقرأ أجهزة DirectInput فقط لن تراه.
-- **لا توجد قوة رجوع (Force Feedback)**؛ والاهتزاز مقتصر على تنبيهات قصيرة في الهاتف.
 - يحتاج إلى تعريف **ViGEmBus**، وهو تنزيل منفصل. والمشروع متوقف رسمياً، لكن التعريف ما زال يعمل.
-- تختلف النتائج حسب اللعبة وحساسات الهاتف، ولم تُختبر كل الألعاب والأجهزة. استخدمه المطوّر مع BeamNG.drive وMotoGP 15 وAssetto Corsa وLive for Speed؛ وتُوقف اللعبتان الأخيرتان بمفتاح Esc، فاختر «طريقة الإيقاف: مفتاح ESC» من قائمة التطبيق.
-
+- تختلف النتائج حسب اللعبة وحساسات الهاتف، ولم تُختبر كل الألعاب والأجهزة. استخدمه المطوّر مع BeamNG.drive وMotoGP 15 وAssetto Corsa وlive for speed 
 ### المتطلبات
 
 | | |
@@ -60,10 +58,10 @@
 
 ### التثبيت والتشغيل الأول
 
-1. **الكمبيوتر:** ثبّت [تعريف ViGEmBus](https://github.com/nefarius/ViGEmBus/releases) (يحتاج موافقة المسؤول، وأعد التشغيل إن طُلب). نزّل ملف `Joyphone-Server-…-win64.zip` من صفحة الإصدارات وفك ضغطه، ثم شغّل `Joyphone.exe` واسمح له في جدار الحماية على الشبكات الخاصة.
+1. **الكمبيوتر:** ثبّت [تعريف ViGEmBus]() (يحتاج موافقة المسؤول، وأعد التشغيل إن طُلب). نزّل ملف `Joyphone-Server-…-win64.zip` من صفحة الإصدارات وفك ضغطه، ثم شغّل `Joyphone.exe` واسمح له في جدار الحماية على الشبكات الخاصة.
 2. **الهاتف:** نزّل ملف `Joyphone-….apk` وافتحه، واسمح بالتثبيت من هذا المصدر عندما يطلب أندرويد، ثم افتح Joyphone.
 3. **الاتصال:** إذا كان الجهازان على الواي فاي نفسه فسيجد الهاتف الكمبيوتر تلقائياً، أو اكتب عنوان IP الظاهر في نافذة الخادم. وللاتصال عبر USB: فعّل «تصحيح USB» من خيارات المطوّر في الهاتف، ووصّل الكابل، ووافق على الرسالة التي تظهر في الهاتف.
-4. اختر وضعاً، واضغط **معايرة** وأنت تمسك الهاتف بالطريقة التي ستلعب بها، ثم اختر يد Xbox داخل اللعبة.
+4. اختر وضعاً، واضغط **معايرة** وأنت تمسك الهاتف بالطريقة التي ستلعب بها، في بعض الاحيان يجب ان تختار يد Xbox داخل اللعبة.
 
 الربط الافتراضي:
 
@@ -80,8 +78,10 @@
 - **الهاتف لا يتصل:** تأكد أن الجهازين على الشبكة نفسها، وأن ويندوز يعدّها *Private*، وأن جدار الحماية يسمح لـJoyphone، وأنه لا توجد شبكة VPN أو ضيوف تعترض. وللاختبار افتح `http://<عنوان-الكمبيوتر>:8080` في متصفح الهاتف؛ فإن لم تُفتح الصفحة فالشبكة أو جدار الحماية يمنع الوصول.
 - **اللعبة لا ترى يد التحكم:** تأكد من تثبيت ViGEmBus، وأعد تشغيل اللعبة، واختر يد Xbox.
 - **الإيقاف بمفتاح Esc لا يعمل:** يمنع ويندوز المفاتيح المحاكاة عن الألعاب التي تعمل بصلاحية المسؤول.
-- **لا تصل إشعارات الأذكار:** اسمح بالإشعارات لـJoyphone وأزل قيود البطارية عن التطبيق.
+- **لا تصل إشعارات الأذكار:** اسمح بالإشعارات لـJoyphone وأزل قيود البطارية عن التطبيق
 
+
+###هل يحوي البرنامج على اي فيروسات ؟؟ , قطعا لا وان كنت تشعر بالشك فابمكانك ارسال الملفات الى موقع virusttottal للتاكد بنفسك 
 ### التحقق من الملف
 
 ```
@@ -119,10 +119,11 @@ Joyphone reads your phone's accelerometer and gyroscope and sends the result ove
 - **Steering wheel** – rotate the phone like a wheel. On-screen gas and brake pedals, handbrake (digital or analog, with optional latch), gear up/down and horn.
 - **Flight yoke** – roll and pitch by tilting the phone. Throttle lever, brakes and rudder buttons. Two styles: Realistic and Arcade.
 - **Motorcycle** – rotate the phone like a handlebar. Twist-grip throttle, separate front and rear brakes, gear shift, starter, horn, camera and look-back.
-- **Gamepad** – a full Xbox 360 layout: two sticks, D-pad, A/B/X/Y, bumpers, analog triggers, Back/Start and L3/R3, with optional gyroscope or touchpad aiming.
 
 ### Features
 
+- Over 50 settings for maximum realism and comfort.
+- The addition of "peace" (neutral/safe-state) buttons, along with the ability to customize button layouts or labels; these can be saved as profiles that can be loaded to suit any specific game.
 - Automatic discovery over Wi-Fi, or manual IP entry
 - USB connection through Android's debugging bridge (adb) – no Wi-Fi needed
 - Move, resize, hide and rename on-screen controls; save and restore layouts
@@ -135,10 +136,8 @@ Joyphone reads your phone's accelerometer and gyroscope and sends the result ove
 ### Limitations
 
 - The PC program runs on **Windows only**.
-- It emulates an **Xbox 360 controller (XInput)**. Games that read only DirectInput devices will not see it.
-- **No force feedback.** Vibration is limited to short cues on the phone.
 - It needs the **ViGEmBus** driver, a separate download. The ViGEmBus project is retired, but the driver still works.
-- Results depend on the game and on your phone's sensors. Not every game or device has been tested. The developer has used it with BeamNG.drive, MotoGP 15, Assetto Corsa and Live for Speed; Assetto Corsa and Live for Speed pause with the Esc key, so choose *Pause method: ESC key* in the app menu for them.
+- Results depend on the game and on your phone's sensors. Not every game or device has been tested. The developer has used it with BeamNG.drive, MotoGP 15, Assetto Corsa and Live for Speed
 
 ### Requirements
 
@@ -174,6 +173,9 @@ Default bindings:
 - **Esc pause does not work** – Windows blocks simulated keys for games that run as administrator.
 - **No reminder notifications** – allow notifications for Joyphone and remove battery restrictions for the app.
 
+  
+ ###is the app contain any virus ??? totally no, and if you doubt you can check it by yourself by sendign the files to virustottal###  website
+ 
 ### Verify your download
 
 ```
@@ -185,6 +187,8 @@ Compare the result with `SHA256SUMS.txt` from the same release.
 
 Joyphone collects no personal data and has no analytics, ads or accounts. Traffic between the phone and the PC stays on your local network or USB cable. On first USB use the server may download Android platform-tools from Google. Links inside the app (support, Telegram, email) open only when you tap them.
 
+ 
+
 ### License
 
 Joyphone is proprietary freeware – see [LICENSE](LICENSE). Third-party components are listed in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
@@ -192,6 +196,6 @@ Joyphone is proprietary freeware – see [LICENSE](LICENSE). Third-party compone
 ### Support and contact
 
 Made by **Khwarizmiyat**, an independent company.
-[Support us on Patreon](https://www.patreon.com/cw/Khwarizmiyat) · [Telegram](https://t.me/Khwarizmiyat) · [Email](mailto:mmcg2027@gmail.com)
+[Support us on Patreon](https://www.patreon.com/cw/Khwarizmiyat) · stay in touch and contact us on [Telegram](https://t.me/Khwarizmiyat) · contact us on [Email](mailto:mmcg2027@gmail.com)
 
 </div>
