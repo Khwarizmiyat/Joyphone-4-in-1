@@ -138,7 +138,6 @@ the app providing a high degree of realism .
 - Adjustable deadzone, response curve, smoothing and more for each mode, with a short explanation (?) next to every setting
 - Optional pause when the connection drops (Start button or Esc key)
 - Arabic and English interface
-- Optional Islamic dhikr reminder notifications (Arabic interface only, off by default)
 - Controlling horizontal or vertical orientation
 
 
