@@ -41,6 +41,9 @@
 - إيقاف اللعبة مؤقتاً عند انقطاع الاتصال بشكل اختياري (زر Start أو مفتاح Esc)
 - واجهة عربية وإنجليزية
 - إشعارات أذكار إسلامية اختيارية (للواجهة العربية فقط)
+- التحكم بالوضع الافقي او العامودي
+-
+-  
 
 ### القيود
 
@@ -136,6 +139,8 @@ the app providing a high degree of realism .
 - Optional pause when the connection drops (Start button or Esc key)
 - Arabic and English interface
 - Optional Islamic dhikr reminder notifications (Arabic interface only, off by default)
+- Controlling horizontal or vertical orientation
+
 
 ### Limitations
 
