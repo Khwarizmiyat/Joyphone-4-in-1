@@ -101,7 +101,7 @@ Joyphone برنامج مجاني مغلق المصدر — انظر ملف [LICE
 ### الدعم والتواصل
 
 من تطوير **شركة خوارزميات المستقلة (Khwarizmiyat)**.
-[ادعمنا على باتريون](https://www.patreon.com/cw/Khwarizmiyat) · [تيليجرام](https://t.me/Khwarizmiyat) · [البريد](mailto:mmcg2027@gmail.com)
+[ادعمنا على باتريون](https://www.patreon.com/cw/Khwarizmiyat) ·ابقى معنا وتواصل عبر [تيليجرام](https://t.me/Khwarizmiyat) ·تواصل معنا عبر [البريد](mailto:mmcg2027@gmail.com)
 
 </div>
 
