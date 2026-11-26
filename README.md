@@ -119,7 +119,7 @@ Joyphone reads your phone's accelerometer and gyroscope and sends the result ove
 
 the app providing a high degree of realism .
 
-**[⬇ Download the latest release](../../releases/latest)** — this repository contains documentation only; the app and the PC program are published as release files.
+**[⬇ Download the latest release](../../releases/latest)** 
 
 ### Modes
 
