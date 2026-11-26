@@ -19,6 +19,7 @@
 **حوّل هاتف أندرويد إلى مقود سيارة أو يوك طيران أو مقود دراجة نارية أو يد تحكم لألعاب الكمبيوتر.**
 
 يقرأ Joyphone حساسَي التسارع والجايروسكوب في هاتفك، ويرسل النتيجة عبر الواي فاي أو USB إلى برنامج صغير على ويندوز، فيعرض لألعابك يد Xbox 360 افتراضية. وتعمل معه أي لعبة تقبل يد Xbox.
+يوفر البرنامج درجة عالية من الواقعية
 
 **[⬇ نزّل أحدث إصدار](../../releases/latest)** .
 
@@ -112,6 +113,8 @@ Joyphone برنامج مجاني مغلق المصدر — انظر ملف [LICE
 ## English
 
 Joyphone reads your phone's accelerometer and gyroscope and sends the result over Wi-Fi or USB to a small Windows program, which presents a virtual Xbox 360 controller to your games. Any game that accepts an Xbox controller can use it.
+
+the app providing a high degree of realism .
 
 **[⬇ Download the latest release](../../releases/latest)** — this repository contains documentation only; the app and the PC program are published as release files.
 
