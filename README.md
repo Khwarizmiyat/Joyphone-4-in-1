@@ -57,7 +57,6 @@ OkHttp : https://square.github.io/okhttp/
 ### القيود
 
 - برنامج الكمبيوتر يعمل على **ويندوز فقط**.
-- يحتاج إلى تعريف **ViGEmBus**، وهو تنزيل منفصل. والمشروع متوقف رسمياً، لكن التعريف ما زال يعمل.
 - تختلف النتائج حسب اللعبة وحساسات الهاتف، ولم تُختبر كل الألعاب والأجهزة. استخدمه المطوّر مع BeamNG.drive وMotoGP 15 وAssetto Corsa وlive for speed 
 ### المتطلبات
 
@@ -71,7 +70,7 @@ OkHttp : https://square.github.io/okhttp/
 
 ### التثبيت والتشغيل الأول
 
-1. **الكمبيوتر:** قم بتحميل وثتبيت [ViGEmBus driver](https://github.com/nefarius/ViGEmBus/releases) اعد تشغيل الكمبيوتر ان طلب , نزّل ملف `Joyphone-Server` من صفحة الإصدارات وفك ضغطه، ثم شغّل `Joyphone.exe` واسمح له في جدار الحماية على الشبكات الخاصة.
+1. **الكمبيوتر:**  نزّل ملف `Joyphone-Server` من صفحة الإصدارات وفك ضغطه، ثم شغّل `Joyphone.exe` واسمح له في جدار الحماية على الشبكات الخاصة.
 2. **الهاتف:** نزّل ملف `Joyphone-….apk` وافتحه، واسمح بالتثبيت من هذا المصدر عندما يطلب أندرويد، ثم افتح Joyphone.
 3. **الاتصال:** إذا كان الجهازان على الواي فاي نفسه فسيجد الهاتف الكمبيوتر تلقائياً، أو اكتب عنوان IP الظاهر في نافذة الخادم. وللاتصال عبر USB: فعّل «تصحيح USB» من خيارات المطوّر في الهاتف، ووصّل الكابل، ووافق على الرسالة التي تظهر في الهاتف.
 4. اختر وضعاً، واضغط **معايرة** وأنت تمسك الهاتف بالطريقة التي ستلعب بها، في بعض الاحيان يجب ان تختار يد Xbox داخل اللعبة.
@@ -164,7 +163,6 @@ the app providing a high degree of realism .
 ### Limitations
 
 - The PC program runs on **Windows only**.
-- It needs the **ViGEmBus** driver, a separate download. The ViGEmBus project is retired, but the driver still works.
 - Results depend on the game and on your phone's sensors. Not every game or device has been tested. The developer has used it with BeamNG.drive, MotoGP 15, Assetto Corsa and Live for Speed
 
 ### Requirements
@@ -179,7 +177,7 @@ the app providing a high degree of realism .
 
 ### Install and first run
 
-1. **PC** – install the [ViGEmBus driver](https://github.com/nefarius/ViGEmBus/releases) (administrator approval; restart if asked). Download `Joyphone-Server` from the releases page, extract it, run `Joyphone.exe` and allow it through the firewall on *Private* networks.
+1. **PC** –  Download `Joyphone-Server` from the releases page, extract it, run `Joyphone.exe` and allow it through the firewall on *Private* networks.
 2. **Phone** – download `Joyphone-….apk`, open it and allow installation from this source when Android asks, then open Joyphone.
 3. **Connect** – with both devices on the same Wi-Fi the phone finds the PC automatically, or type the IP address shown in the server window. For USB: enable *USB debugging* in the phone's developer options, plug in the cable and accept the prompt on the phone.
 4. Pick a mode, press **Calibrate** while holding the phone the way you will play, then choose the Xbox controller in your game.
